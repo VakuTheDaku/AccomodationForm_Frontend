@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="min-h-10 text-center p-8" style={{backgroundColor:'#1FA2FF'}}>
         
-        <span className="text-center font-bold text-black text-3xl p-8"  >ACCOMODATION FORM</span></div>
+        <span className="text-center font-bold text-black text-3xl md:p-8"  >ACCOMODATION RESERVATION FORM</span></div>
       <div className="p-4 bg-transparent" style={{backgroundColor: "#2a2a72",backgroundImage: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);"}}>
         
         <div className="grid">
