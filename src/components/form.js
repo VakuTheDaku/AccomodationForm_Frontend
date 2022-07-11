@@ -97,7 +97,7 @@ export function MyForm(props) {
 
         
 
-        <form onSubmit={onSubmit} className="bg-transparent">
+        <form onSubmit={onSubmit} className="bg-transparent text-white">
             <div className='grid gap-4 w-full mb-10'>
                 <div className='w-3/4 md:w-3/4'>
                     <label class="label">
