@@ -56,7 +56,7 @@ export function MyForm(props) {
     }
     const onSubmit = (event) => {
         trackPromise(
-            fetch('http://localhost:3000/store-data', {
+            fetch('https://backend-accomodation.herokuapp.com/store-data', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 // We convert the React state to JSON and send it as the POST body
