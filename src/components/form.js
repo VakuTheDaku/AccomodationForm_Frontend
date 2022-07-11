@@ -79,7 +79,7 @@ export function MyForm(props) {
             promiseInProgress && (
                 <>
                     <br></br>
-                    <progress className="progress w-56"></progress>
+                    <progress className="progress w-full"></progress>
                 </>
             )
         );
@@ -99,7 +99,7 @@ export function MyForm(props) {
 
         <form onSubmit={onSubmit} className="bg-transparent">
             <div className='grid gap-4 w-full mb-10'>
-                <div className='md:w-3/4'>
+                <div className='w-3/4 md:w-3/4'>
                     <label class="label">
                         <span class="label-text text-left">Name</span>
                     </label>

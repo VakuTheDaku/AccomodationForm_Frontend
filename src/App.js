@@ -12,10 +12,29 @@ function App() {
         <div className="grid">
           <div className=" grid md:grid-cols-2">
         <div className="z-20 w-full md:border-r">
+       
       <MyForm/>
+      <div className="block md:hidden font-thin text-grey text-lg p-3 border rounded-md m-8">
+            <span>We provide accomodation facilities to those partaking in the events or workshops</span>
+            <br/>
+            <div className="">
+            <span className="font-bold text-center">
+              Rs. 100 per head<span className="font-thin"> (can be paid after reaching the campus)</span>
+            </span>
+            </div>
+          </div>
       </div>
       <div className="hidden md:block">
         <img src="https://iste-tkmce.github.io/TOOLS/athena_blue.png" className="w-full h-fulll"></img>
+        <div className="font-thin text-grey text-lg p-3 border rounded-md m-8">
+            <span>We provide accomodation facilities to those partaking in the events or workshops</span>
+            <br/>
+            <div className="">
+            <span className="font-bold text-center">
+              Rs. 100 per head<span className="font-thin"> (can be paid after reaching the campus)</span>
+            </span>
+            </div>
+          </div>
         </div>
         <div className="block md:hidden absolute top-25 h-screen grid place-items-center">
           <div className="opacity-50 z-0">
