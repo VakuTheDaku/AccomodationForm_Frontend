@@ -79,7 +79,7 @@ export function MyForm(props) {
             promiseInProgress && (
                 <>
                     <br></br>
-                    <progress className="progress w-full"></progress>
+                    <progress className="progress w-full md:w-3/4 md:pr-4"></progress>
                 </>
             )
         );
