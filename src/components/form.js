@@ -101,13 +101,13 @@ export function MyForm(props) {
             <div className='grid gap-4 w-full mb-10'>
                 <div className='w-3/4 md:w-3/4'>
                     <label class="label">
-                        <span class="label-text text-left">Name</span>
+                        <span class="label-text text-left text-white">Name</span>
                     </label>
                     <input required className='input bg-black bg-opacity-75 w-full' type="text" name="name" placeholder='Name' onChange={handlenameChange} />
                 </div>
                 <div className='w-1/3'>
                     <label className="label">
-                        <span className="label-text text-left">Gender</span>
+                        <span className="label-text text-left text-white">Gender</span>
                     </label>
                     <div className="form-control">
                         <div className="input-group rounded-md">
@@ -126,32 +126,32 @@ export function MyForm(props) {
                 </div>
                 <div className='w-3/4 md:w-3/4'>
                     <label className="label">
-                        <span className="label-text text-left">Phone Number</span>
+                        <span className="label-text text-white text-left">Phone Number</span>
                     </label>
                     <input required className='input bg-black bg-opacity-75 w-full' type="text" name="name" placeholder='Phone' onChange={handlephoneChange} />
                 </div>
                 <div className='w-3/4 md:w-3/4'>
                     <label className="label">
-                        <span className="label-text text-left">College Name</span>
+                        <span className="label-text text-white text-left">College Name</span>
                     </label>
                     <input required className='input bg-black bg-opacity-75 w-full' type="text" name="name" placeholder='College Name' onChange={handlecollegeChange} />
                 </div>
                 <div className='w-3/4 md:w-3/4'>
                     <label className="label">
-                        <span className="label-text text-left">Registered Event</span>
+                        <span className="label-text text-white text-left">Registered Event</span>
                     </label>
                     <input required className='input bg-black bg-opacity-75 w-full' type="text" name="name" placeholder='Event or Workshop name' onChange={handleevent} />
                 </div>
                 <div className='form-control'>
                     <label className='label'>
-                    <span className="label-text text-left">Entry date</span>
+                    <span className="label-text text-white text-left">Entry date</span>
                     </label>
                     <div><DatePicker dateFormat="   dd-MM-yyyy" className='bg-black bg-opacity-75 rounded-md w-3/4 md:w-3/4 min-h-12' selected={startDate} onChange={(date) => handleentrydate(date)} />
                 </div>
                 </div>
                 <div className='form-control'>
                     <label className='label'>
-                    <span className="label-text text-left">Exit date</span>
+                    <span className="label-text text-white text-left">Exit date</span>
                     </label>
                     <div><DatePicker dateFormat="   dd-MM-yyyy" className='bg-black bg-opacity-75 rounded-md w-3/4 md:w-3/4 min-h-12' selected={exitDate} onChange={(date) => handleexitdate(date)} />
                 </div>

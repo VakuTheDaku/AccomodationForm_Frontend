@@ -14,7 +14,7 @@ function App() {
         <div className="z-20 w-full md:border-r">
        
       <MyForm/>
-      <div className="block md:hidden font-thin text-grey text-lg p-3 border rounded-md m-8">
+      <div className="block md:hidden text-white font-thin text-grey text-lg p-3 border rounded-md m-8">
             <span>We provide accomodation facilities to those partaking in the events or workshops</span>
             <br/>
             <div className="">
@@ -24,7 +24,7 @@ function App() {
             </div>
           </div>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block text-white">
         <img src="https://iste-tkmce.github.io/TOOLS/athena_blue.png" className="w-full h-fulll"></img>
         <div className="font-thin text-grey text-lg p-3 border rounded-md m-8">
             <span>We provide accomodation facilities to those partaking in the events or workshops</span>
